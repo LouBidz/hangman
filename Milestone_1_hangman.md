@@ -1,4 +1,4 @@
-# A quick guide to get you started
+ # A quick guide to get you started
 
 1. To start this project you will need to create a new repository in your Github. The following should set you up.
 
