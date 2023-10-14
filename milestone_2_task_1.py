@@ -4,3 +4,5 @@ fruits = ['Apple','Grape','Strawberry','Banana','Melon']
 word_list = fruits 
 # Step 3:Prints out the list of fruits
 print(word_list)
+
+# This makes a list and then assigns the list to a variable called word_list
