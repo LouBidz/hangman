@@ -43,3 +43,5 @@ class Hangman:
  ask_for_input()
 
 word_list = ['Apple','Grape','Strawberry','Banana','Melon'] 
+
+# This defines what happens if the letter is NOT in word. 
