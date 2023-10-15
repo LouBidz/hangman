@@ -46,3 +46,5 @@ word_list = ['Apple','Grape','Strawberry','Banana','Melon']
 # Finally, append the guess to the list_of_guesses.
 # Ensure you do this in the else block of this function, rather than inside the check_guess method, so that the letter can be appended to the list_of_guesses in both conditions.
 # Step 3:Call the ask_for_input method to test your code.
+
+# This creates two functions check_guess and ask_for_input.
