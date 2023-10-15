@@ -13,9 +13,8 @@ def select_random_fruit(word_list):
 word = select_random_fruit(word_list)
 print(word)
 
-guess = input ("Please guess a letter: ")
-
 def check_guess(guess):
+      guess = input ("Please guess a letter: ")
       guess = guess.lower()
       if guess in word:
        print (f"Good guess! {guess} is in the word")
