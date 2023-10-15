@@ -29,3 +29,5 @@ def ask_for_input():
 # Don't forget to pass in the guess as an argument to the method.
 # Step 9:Outside the function, call the ask_for_input function to test your code.
 ask_for_input()
+
+# This creates the function that asks the user to guess a letter and checks the input.
