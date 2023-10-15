@@ -37,3 +37,4 @@ class Hangman:
  ask_for_input()
 word_list = ['Apple','Grape','Strawberry','Banana','Melon'] 
 
+# This creates methods for running the checks 
