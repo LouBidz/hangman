@@ -20,3 +20,4 @@ class Hangman:
   self.num_lives = num_lives
   self.list_of_guesses = [ ]
 
+# This starts the creation of a class hangman 
