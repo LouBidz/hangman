@@ -17,7 +17,7 @@ class Hangman:
 # Step 2:Within the for-loop, do the following:
 # Create an if statement that checks if the letter is equal to the guess
 # In the if block, replace the corresponding "_" in the word_guessed with the guess. HINT: You can index the word_guessed at the position of the letter and assign it to the letter  
-            if letter.lower() == guess:
+            if guess.lower() == guess:
                self.word_guessed[index] = guess
                print(f"Good guess! {guess} is in the word")
 # Outside the for-loop, reduce the variable num_letters by 1  
