@@ -19,9 +19,9 @@ class Hangman:
 # In the if block, replace the corresponding "_" in the word_guessed with the guess. HINT: You can index the word_guessed at the position of the letter and assign it to the letter  
             if letter.lower() == guess:
                self.word_guessed[index] = guess
+               print(f"Good guess! {guess} is in the word")
 # Outside the for-loop, reduce the variable num_letters by 1  
       self.num_letters -= 1
-      print(f"Good guess! {guess} is in the word")
 
  def ask_for_input(self):
     while True:
