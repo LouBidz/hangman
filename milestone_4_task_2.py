@@ -4,7 +4,7 @@ class Hangman:
 
  def __init__(self, word_list, num_lives=5):
   self.word = random.choice(word_list)
-  self.word_guessed = [" _ " for _ in self.word]
+  self.word_guessed = [" _ "] * len(self.word)
   self.num_letters = len(set(self.word))
   self.num_lives = num_lives
   self.list_of_guesses = []
@@ -17,14 +17,20 @@ class Hangman:
  def ask_for_input(self):
     while True:
         guess = input("Guess a letter: ").lower()
-        if not guess.isalpha() or len(guess) != 1:
-            print("Invalid letter. Please, enter a single alphabetical character.")
+        if guess in self.word:
+            for inx, letter in enumerate(self.word):
+                if guess == letter:
+                    self.word_guessed[inx] = guess
+                    self.num_letters -=1
         elif guess in self.list_of_guesses:
             print("You already tried that letter!")
+        elif not guess.isalpha() or len(guess) != 1:
+            print("Invalid letter. Please, enter a single alphabetical character.")
         else:
             self.check_guess(guess)
-            self.list_of_guesses.append(guess)
-        break
+            break
+    self.list_of_guesses.append(guess)
+
  ask_for_input()
 word_list = ['Apple','Grape','Strawberry','Banana','Melon'] 
 
@@ -47,4 +53,4 @@ word_list = ['Apple','Grape','Strawberry','Banana','Melon']
 # Ensure you do this in the else block of this function, rather than inside the check_guess method, so that the letter can be appended to the list_of_guesses in both conditions.
 # Step 3:Call the ask_for_input method to test your code.
 
-# This creates two functions check_guess and ask_for_input.
+# This creates two functions check_guess and ask_for_input as per insructions given. 
