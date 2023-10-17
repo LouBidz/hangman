@@ -15,7 +15,7 @@ class Hangman:
 # word_list: list - A list of words
 # list_of_guesses: list - A list of the guesses that have already been tried. Set this to an empty list initially
   self.word = random.choice(word_list)
-  self.word_guessed = [" _ " for _ in self.word]
+  self.word_guessed = [" _ "] * len(self.word)
   self.num_letters = len(set(self.word))
   self.num_lives = num_lives
   self.list_of_guesses = [ ]
