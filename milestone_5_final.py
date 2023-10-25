@@ -42,7 +42,7 @@ class Hangman:
                print("You lost")
      else:
                 print ('Congratulations. You won the game!')
-        pass
+        
 
 
 
