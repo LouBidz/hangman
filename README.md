@@ -1,7 +1,12 @@
-<<<<<<< HEAD
-# hangman
-The following branch contains all the working progress of the code needed to set up a game of hangman. 
 
+# Hangman
+The following branch contains all the working progress of the code needed to set up a game of hangman.
+
+Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
+
+This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
+
+The following branch contains all the working progress of the code needed to set up a game of hangman.
 
 # Table of contents 
 
@@ -57,5 +62,4 @@ Don't give up, find the solution!
 # Hangman
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
->>>>>>> 95ff29ab1c7bfd740ef21d6dc266f63be128c056
+This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
