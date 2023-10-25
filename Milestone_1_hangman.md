@@ -8,6 +8,6 @@
    If you would like to know what they are, you can read the 'learn more..... links' for more information.
    Create respository.
 
-5. You can clone this repository to visual code studio or Gitbash. 
+4. You can clone this repository to visual code studio or Gitbash. 
 
-6. You are now ready to start! 
+5. You are now ready to start! 
