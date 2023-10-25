@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # hangman
 The following branch contains all the working progress of the code needed to set up a game of hangman. 
 
@@ -52,3 +53,9 @@ Don't give up, find the solution!
 - Always remember to do this! git add <filename>,git commit -m "Your message" <filename> or if you want to sign your commits in Github git commit -S -m "Your message" 
 
 - Try and put comments and docstrings into your code as you go along! it helps to back track if it goes wrong! :)
+=======
+# Hangman
+Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
+
+This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+>>>>>>> 95ff29ab1c7bfd740ef21d6dc266f63be128c056
